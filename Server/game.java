@@ -116,6 +116,7 @@ public class game {
         List<String> playerNames = new ArrayList<>();
         playerNames.add("Player 1");
         playerNames.add("Player 2");
+        System.out.println("Welcome to the game!");
 
         game g = new game(playerNames);
         // g.startGame();
